@@ -70,8 +70,7 @@ nav a:hover {
 }
 
 .content a.carpediem:hover {
-    font-size: 50pt;
-    font-weight: 900;
+    font-weight: 700;
     text-decoration: underline;
     opacity: 70%
 }
