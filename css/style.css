@@ -1,0 +1,293 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #1d1d1d;
+    color: #fdfdfd;
+    font-weight: light;
+}
+
+nav {
+    background-color: #2d2d2d;
+    max-height: 100px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+nav a {
+    color: #fdfdfd;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+
+/* ------ Home ------ */
+#menu-bar-home a.home {
+    background-color: #585858;
+    font-weight: 800;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 10px 10px 0 0;
+    opacity: 80%;
+}
+
+#banner {
+    background-image: url(../images/home_Seoul.jpg);
+    height: 603px;
+    background-size: cover;
+    background-position: center 22%;
+}
+
+.content {
+    font-size: 15pt;
+    text-align: center;
+}
+
+.content h1.introduction {
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: 200;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+}
+
+.content h1.introduction:hover {
+    opacity: 70%;
+    letter-spacing: 0.12em;
+}
+
+.content a.carpediem {
+    color: white;
+    text-decoration: none;
+    font-size: 40pt;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 1;
+}
+
+.content a.carpediem:hover {
+    font-size: 50pt;
+    font-weight: 900;
+    text-decoration: underline;
+    opacity: 70%
+}
+
+.emptyarea {
+    padding-top: 500px;
+    padding-bottom: 500px;
+}
+
+#seizetheday {
+    text-align: center;
+    font-size: 30pt;
+    padding: 150px;
+}
+
+#seizetheday h2.korean {
+    font-family: 'Nanum Pen Script', cursive;
+    letter-spacing: 0.1em;
+}
+
+.backtohome {
+    padding-bottom: 300px;
+}
+
+a.backtohome {
+    color: white;
+    font-size: 10pt;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+a.backtohome:hover {
+    font-weight: 800;
+    opacity: 70%
+}
+
+/* ------ non-home headers ------ */
+.header h1 {
+    font-size: 30pt;
+    font-style: italic;
+    font-weight: 100;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/* ------ Profile ------ */
+#menu-bar-profile a.profile {
+    background-color: #585858;
+    font-weight: 800;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 10px 10px 0 0;
+    opacity: 80%;
+}
+
+.profile-main {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid white; */
+}
+
+img.profile-pic {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    border: 10px solid #2d2d2d;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+
+img.profile-pic:hover {
+    border: 10px solid white;
+}
+
+.info {
+    width: 350px;
+    margin: 0 auto;
+    text-align: left;
+    /* border: 1px solid white; */
+    font-family: 'Nanum Pen Script', cursive;
+    letter-spacing: 0.1em;
+    font-size: 22pt;
+    font-weight: 100;
+    padding-top: 20px;
+    line-height: 0.5;
+    /* padding-left: 100px; */
+}
+
+.pet {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.pet h2 {
+    font-size: 20pt;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.pet img.uni {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0% 0%;
+    border-radius: 100%;
+    border: 10px solid #2d2d2d;
+}
+
+.pet img.uni:hover {
+    border: 10px solid white;
+}
+
+
+/* ------ Quotes ------ */
+#menu-bar-quotes a.quotes {
+    background-color: #585858;
+    font-weight: 800;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 10px 10px 0 0;
+    opacity: 80%;
+}
+
+.quotes {
+    text-align: center;
+    line-height: 30px;
+    max-width: 660px;
+    margin: 0 auto;
+    opacity: 70%;
+}
+
+.quotes:hover {
+    opacity: 100%;
+}
+
+.quotes .quote {
+    font-size: 15pt;
+    font-style: italic;
+    font-weight: 500;
+    margin: 20px auto;
+    padding: 50px 30px 0 30px;
+    border-top: 1px solid #2d2d2d;
+}
+
+.quotes .quotefrom {
+    font-weight: 200;
+    padding-bottom: 50px;
+}
+
+
+/* ------ Favorites ------ */
+#menu-bar-favorites a.favorites {
+    background-color: #585858;
+    font-weight: 800;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-radius: 10px 10px 0 0;
+    opacity: 80%;
+}
+
+.fav-main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.item-l {
+    text-align: left;
+    padding-left: 30px;
+}
+
+.item-r {
+    text-align: right;
+    padding-right: 30px;
+}
+
+.fav-main img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 5px solid #5d5d5d;
+    object-fit: cover;
+}
+
+.fav-main img:hover {
+    border: 5px solid white;
+}
+
+img.cancun {
+    object-position: 80% 0%
+}
+
+img.napoli {
+    object-position: 30% 100%;
+}
+
+img.sushi2 {
+    object-position: 0% 80%;
+}
+
+img.beef2 {
+    object-position: 0% 0%;
+}
+
+img.pizza2 {
+    object-position: 90% 0%;
+}
+
+img.homeparty {
+    object-position: 20% 0%;
+}
+
+img.wine {
+    object-position: 50% 100%;
+}
+
