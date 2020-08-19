@@ -126,13 +126,20 @@ section#contents {
 }
 
 
-/* ------ non-home headers ------ */
+/* ------ non-home common ------ */
 .header h1 {
     font-size: 30pt;
     font-style: italic;
     font-weight: 100;
     padding-bottom: 50px;
     text-align: center;
+}
+
+div.backtotop {
+    max-width: 500px;
+    padding: 100px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 /* ------ Profile ------ */
