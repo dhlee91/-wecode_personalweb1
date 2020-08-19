@@ -43,7 +43,7 @@ nav a:hover {
     border-radius: 10px 10px 0 0;
     opacity: 80%;
     position: relative;
-    top: 5.2px;
+    top: 2px;
 }
 
 #banner {
@@ -137,7 +137,7 @@ a.backtohome:hover {
     border-radius: 10px 10px 0 0;
     opacity: 80%;
     position: relative;
-    top: 5.2px;
+    top: 2px;
 }
 
 .profile-main {
@@ -209,7 +209,7 @@ img.profile-pic:hover {
     border-radius: 10px 10px 0 0;
     opacity: 80%;
     position: relative;
-    top: 5.2px;
+    top: 2px;
 }
 
 div.quotes {
@@ -249,7 +249,7 @@ div.quotes {
     border-radius: 10px 10px 0 0;
     opacity: 80%;
     position: relative;
-    top: 5.2px;
+    top: 2px;
 }
 
 .fav-main {
