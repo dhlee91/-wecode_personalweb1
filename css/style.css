@@ -208,7 +208,7 @@ img.profile-pic:hover {
     top: 5.2px;
 }
 
-.quotes {
+div.quotes {
     text-align: center;
     line-height: 30px;
     max-width: 660px;
