@@ -95,6 +95,7 @@ nav a:hover {
 #seizetheday h2.korean {
     font-family: 'Nanum Pen Script', cursive;
     letter-spacing: 0.1em;
+    margin-bottom: 10px;
 }
 
 .backtohome {
