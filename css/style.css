@@ -34,6 +34,23 @@ nav a:hover {
 }
 
 
+.backtotop {
+    padding-bottom: 300px;
+}
+
+a.backtotop {
+    color: white;
+    font-size: 10pt;
+    font-weight: 100;
+    text-decoration: underline;
+}
+
+a.backtotop:hover {
+    font-weight: 800;
+    opacity: 70%
+}
+
+
 /* ------ Home ------ */
 #menu-bar-home a.home {
     background-color: #585858;
@@ -108,21 +125,6 @@ section#contents {
     margin-bottom: 10px;
 }
 
-.backtohome {
-    padding-bottom: 300px;
-}
-
-a.backtohome {
-    color: white;
-    font-size: 10pt;
-    font-weight: 100;
-    text-decoration: underline;
-}
-
-a.backtohome:hover {
-    font-weight: 800;
-    opacity: 70%
-}
 
 /* ------ non-home headers ------ */
 .header h1 {
