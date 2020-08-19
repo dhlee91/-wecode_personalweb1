@@ -46,6 +46,11 @@ nav a:hover {
     top: 2px;
 }
 
+section#contents {
+    position: relative;
+    top: 70px;
+}
+
 #banner {
     background-image: url(../images/home_Seoul.jpg);
     height: 603px;
