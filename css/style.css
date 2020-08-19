@@ -38,6 +38,8 @@ nav a:hover {
     border-right: 1px solid white;
     border-radius: 10px 10px 0 0;
     opacity: 80%;
+    position: relative;
+    top: 5.2px;
 }
 
 #banner {
@@ -129,6 +131,8 @@ a.backtohome:hover {
     border-right: 1px solid white;
     border-radius: 10px 10px 0 0;
     opacity: 80%;
+    position: relative;
+    top: 5.2px;
 }
 
 .profile-main {
@@ -199,6 +203,8 @@ img.profile-pic:hover {
     border-right: 1px solid white;
     border-radius: 10px 10px 0 0;
     opacity: 80%;
+    position: relative;
+    top: 5.2px;
 }
 
 .quotes {
@@ -237,6 +243,8 @@ img.profile-pic:hover {
     border-right: 1px solid white;
     border-radius: 10px 10px 0 0;
     opacity: 80%;
+    position: relative;
+    top: 5.2px;
 }
 
 .fav-main {
