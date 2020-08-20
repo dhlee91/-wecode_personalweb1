@@ -12,7 +12,6 @@ body {
 
 nav {
     background-color: #2d2d2d;
-    max-height: 100px;
     padding: 20px;
     justify-content: center;
     text-align: center;
@@ -86,6 +85,8 @@ section#contents {
     font-weight: 200;
     line-height: 1.5;
     letter-spacing: 0.1em;
+    position: relative;
+    top: 15px;
 }
 
 .content h1.introduction:hover {
@@ -100,6 +101,8 @@ section#contents {
     font-style: italic;
     font-weight: 200;
     line-height: 1;
+    position: relative;
+    top: 15px;
 }
 
 .content a.carpediem:hover {
@@ -322,3 +325,56 @@ img.wine {
     object-position: 50% 100%;
 }
 
+@media only screen and (max-width: 500px) {
+    nav {
+        padding: 13px;
+    }
+    
+    nav a {
+        padding: 11px 10px;
+        font-size: 80%;
+    }
+    
+    .content a.carpediem {
+        font-size: 30pt;
+    }
+
+    #seizetheday, #seizethday h2.korean {
+        font-size: 22pt;
+    }
+
+    #menu-bar-home a.home, #menu-bar-profile a.profile, #menu-bar-quotes a.quotes, #menu-bar-favorites a.favorites {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .header h1 {
+        font-size: 22pt;
+    }
+
+    img.profile-pic {
+        width: 300px;
+        height: 300px;
+    }
+
+    .info {
+        font-size: 18pt;
+    } 
+    
+    .pet h2 {
+        font-size: 16pt;
+    }
+
+    .pet img.uni {
+        width: 270px;
+        height: 270px;
+    }
+
+    .quotes .quote {
+        font-size: 12pt;
+    }
+
+    .quotes .quotefrom {
+        font-size: 10pt;
+    }
+}
