@@ -87,6 +87,7 @@ section#contents {
     letter-spacing: 0.1em;
     position: relative;
     top: 15px;
+    transition: all 500ms ease-in;
 }
 
 .content h1.introduction:hover {
@@ -103,6 +104,7 @@ section#contents {
     line-height: 1;
     position: relative;
     top: 15px;
+    transition: all 900ms ease-in;
 }
 
 .content a.carpediem:hover {
