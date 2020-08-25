@@ -13,7 +13,6 @@ body {
 nav {
     background-color: #2d2d2d;
     padding: 20px;
-    justify-content: center;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -58,7 +57,7 @@ a.backtotop:hover {
     border-left: 1px solid white;
     border-right: 1px solid white;
     border-radius: 10px 10px 0 0;
-    opacity: 80%;
+    /* opacity: 80%; */
     position: relative;
     top: 2px;
 }
@@ -155,7 +154,7 @@ div.backtotop {
     border-left: 1px solid white;
     border-right: 1px solid white;
     border-radius: 10px 10px 0 0;
-    opacity: 80%;
+    /* opacity: 80%; */
     position: relative;
     top: 2px;
 }
@@ -227,7 +226,7 @@ img.profile-pic:hover {
     border-left: 1px solid white;
     border-right: 1px solid white;
     border-radius: 10px 10px 0 0;
-    opacity: 80%;
+    /* opacity: 80%; */
     position: relative;
     top: 2px;
 }
@@ -267,7 +266,7 @@ div.quotes {
     border-left: 1px solid white;
     border-right: 1px solid white;
     border-radius: 10px 10px 0 0;
-    opacity: 80%;
+    /* opacity: 80%; */
     position: relative;
     top: 2px;
 }
