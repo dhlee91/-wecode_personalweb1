@@ -1,4 +1,5 @@
-# Personal Webpage - My very first project using just HTML & CSS!
+# Personal Webpage
+## My very first project using just HTML & CSS
 
 https://pdl39.github.io/donghunlee-personalweb/index.html
 
